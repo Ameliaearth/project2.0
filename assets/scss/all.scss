@@ -4,8 +4,9 @@
 @import './utils/base.scss';//base
 
 //layout
+@import './layout/nav.scss';
+@import './layout/aside.scss';
 @import './layout/header.scss';
-@import './layout/footer.scss';
 
 
 //pages
@@ -24,4 +25,7 @@ $red
 $gray-100
 $gray-400
 $gray-600
+
+$link-decoration:                         none !default;
+$font-family-sans-serif:      'Lato', sans-serif ,'Regular' !default;
 */

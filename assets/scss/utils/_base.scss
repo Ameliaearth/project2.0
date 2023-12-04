@@ -12,3 +12,120 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+//color
+.cor-g{
+    color:$green;
+}
+
+//padding
+.p-32{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.px-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.pl-32{
+    padding-left: 32px;
+}
+.pl-16{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.p-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.mx-64{
+    margin-left: 64px;
+    margin-right: 32px;
+}
+.p2-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+.ml-32{
+    margin-left: 32px;
+}
+.ml-16{
+    margin-left: 16px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.mr-32{
+    margin-right: 32px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-26{
+    margin-bottom: 26px;
+}
+.mr-23{
+    margin-right: 23px;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.mr-9{
+    margin-right: 9px;
+}
+.mr-6{
+    margin-right: 6px;
+}
+.mr-16{
+    margin-right: 16px;
+}
+.ml-8{
+    margin-left: 8px;
+}
+
+
+
+//fsz
+.fs-12{
+    font-size: 12px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+//gray
+.cor-gray6{
+    color:$gray-600;
+}
+.bg-gray4{
+    background-color: $gray-400;
+}
