@@ -8,18 +8,126 @@
 
     <!--bootstrap5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!--icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
-    <%- include('./layout/header'); -%>
 
 
 
+    <div class="d-flex justify-content-between align-items-start">
+      <%- include('./layout/nav'); -%>
 
-    <%- include('./layout/footer'); -%>
+      <div class="container">
+        <%- include('./layout/header'); -%>
 
+        <div class="row d-flex justify-content-between align-items-start">
+          <%- include('./layout/aside'); -%>
+
+          <div class="col-7 list4">
+            <div class="card">
+              <div class="list-group-item">
+
+                <!--1-->
+                <div class="d-flex justify-content-between align-items-center p2-12 border border-1 bg-gray4">
+                  <div>
+                    <p class="fs-12">Chapter Assignment 2 / HTML&CSS</p>
+                    <h4 class="fw-bold fs-16">Please check this file for me, thanks!</h4>
+                  </div>
+                  <a href="#"><span class="material-symbols-outlined align-top text-dark">more_vert</span></a>
+                </div>
+
+
+                <div class="pl-16 d-flex justify-content-start align-items-start p-32">
+                  <div>
+                    <img class="rounded-circle" src="../assets/images/emilywang.jpeg" width="40" height="40" alt="Emily Wang">
+                  </div>
+                  <div class="ml-8">
+                    <div>
+                      <h4 class="fs-16 fw-bold">Emily Wang</h4>
+                      <p class="text-muted cor-gray6 fs-12"><time>10:38 AM</time> (4 hours ago)</p>
+                    </div>
+                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes 
+                      a question: Why in the following code the height of the <div class="cor-g">div</div> is bigger than 
+                      the height of the <div class="cor-g">img</div> ? There is a gap below the image, but it 
+                      doesn’t seems to be a padding/margin. <br>
+                      What is the gap or extra space below image?</p>
+
+                    <a class="border border-2 py-8 px-12 text-dark fw-bold" href="#"><span class="material-symbols-outlined align-top">attach_file</span>
+                      HW-2-David.zip</a>
+                  </div>
+                </div>
+                
+
+              </div>
+
+              <div class="border-bottom border-2 mx-64 mt-32 mb-32"></div>
+
+              <!--3-->
+              <div class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center p-32">
+                  <div class="d-flex justify-content-start">
+                    <div>
+                      <img class="rounded-circle" src="../assets/images/andychen.jpeg" width="40" height="40" alt="Andy Chen (You)">
+                    </div>
+
+                    <div class="pl-16">
+                      <h4 class="fs-16 fw-bold">Andy Chen (You)</h4>
+                      <p class="text-muted cor-gray6 fs-12"><time>13:24 AM</time> (1 hours ago)</p>
+                    </div>
+                  </div>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="mr-24" href="#"><span class="material-symbols-outlined text-dark">star</span></a>
+                      <a href="#"><span class="material-symbols-outlined text-dark">edit</span></a>
+                    </li>
+                  </ul>
+                </div>
+
+                  <div class="p-32">
+                    <p>Hi David, by default, an image is rendered inline, like a letter so it 
+                      sits on the same line that a, b, c and d sit on. There is space below that 
+                      line for the descenders you find on letters like g, j, p and q.</p>
+                    <p>You can:</p>
+                    <ul>
+                      <li>adjust the <p class="cor-g d-inline">vertical-align</p> of the image to
+                        position it elsewhere (e.g. the <p class="cor-g d-inline">middle</p>le ) or</li>
+                      <li>change the <p class="cor-g d-inline">display</p> so it isn’t inline.</li>
+                    </ul>
+                  </div>
+                </div>
+
+            </div>
+
+            <!--4-->
+            <div class="d-flex justify-content-between align-items-center mb-32 mt-16">
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-dark mr-23" href="#"><span class="material-symbols-outlined">navigate_before</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">navigate_next</span></a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <a href="#" type="button" class="btn btn-outline-success mr-16 py-8 p-32">Mark as read</a>
+                <a href="Main-assignment-reply.html" type="button" class="btn btn-success py-8 p-32">Reply</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
     
 
     <script type="module" src="../main.js"></script>
   </body>
 </html>
+
+

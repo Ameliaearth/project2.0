@@ -1,0 +1,34 @@
+h1 a{
+    background-image: url(../images/logo-ANSWER.png);
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-indent: 25em;
+    overflow:hidden;
+    white-space:nowrap;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link1{
+    color:#000;
+    padding-left: 50px;
+    &:hover{
+        border-left:4px solid #198754;
+        color:#198754;
+    }
+}
+
+
+.mune{
+    position: fixed;
+    min-width: 300px;
+    min-height: 100vh;
+    background: $gray-100;
+}
+/*.nav{
+    position: fixed;
+    min-width: 300px;
+    min-height: 100vh;
+    background: $gray-100;
+}*/
