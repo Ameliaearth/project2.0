@@ -1,11 +1,31 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import './utils/variables';
+//utils
+@import './utils/variables';//放第一位，因有變數
+@import './utils/base.scss';//base
 
-
+//layout
+@import './layout/nav.scss';
+@import './layout/aside.scss';
 @import './layout/header.scss';
-@import './layout/footer.scss';
 
 
+//pages
 @import './pages/index.scss';
+@import './pages/Main-assignment-reply.scss';
+@import './pages/Main-Admin.scss';
+
 
 @import "../../node_modules/bootstrap";
+
+
+/*
+$green
+$red
+
+$gray-100
+$gray-400
+$gray-600
+
+$link-decoration:                         none !default;
+$font-family-sans-serif:      'Lato', sans-serif ,'Regular' !default;
+*/

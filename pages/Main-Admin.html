@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main-Admin</title>
+
+    <!--bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+
+
+    <div class="d-flex justify-content-between align-items-start">
+      <%- include('./layout/nav'); -%>
+
+      <div class="container">
+        
+        <div class="ml-32">
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex mt-32 mb-32">
+                  <h3 class="mr-50 fw-bold">Admin</h3>
+      
+                  <div class="dropdown">
+                      <a href="#" class="text-dark" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span class="material-symbols-outlined align-top fw-bold cor-g">add</span>
+                          Add New Admin</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                  </div>
+      
+              </div>
+              <ul class="list-unstyled">
+                  <li>
+                      <a class="text-dark mr-24" href="#">
+                          <span class="material-symbols-outlined">search</span>
+                      </a>
+                      <a class="text-dark" href="#">
+                          <span class="material-symbols-outlined">notifications_active</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+
+        <div class="ml-32 mb-63">
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><!--1-->
+                <th scope="row">#1</th>
+                <td>Emir Wicks</td>
+                <td>emir.wicks@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="Modal-edit-scrollable.html"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--2-->
+                <th scope="row">#2</th>
+                <td>Zaina Goldsmith</td>
+                <td>zaina.goldsmith@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--3-->
+                <th scope="row">#3</th>
+                <td>Mahima Lopez</td>
+                <td>mahima.lopez@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--4-->
+                <th scope="row">#4</th>
+                <td>Pharrell Murray</td>
+                <td>pharrell.murray@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--5-->
+                <th scope="row">#5</th>
+                <td>Annika Mcbride</td>
+                <td>annika.mcbride@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--6-->
+                <th scope="row">#6</th>
+                <td>Fatimah Clark</td>
+                <td>fatimah.clark@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--7-->
+                <th scope="row">#7</th>
+                <td>Klaudia Rhodes</td>
+                <td>klaudia.rhodes@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--8-->
+                <th scope="row">#8</th>
+                <td>Tillie Lucero</td>
+                <td>tillie.lucero@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--9-->
+                <th scope="row">#9</th>
+                <td>Sabrina Stephenson</td>
+                <td>sabrina.stephenson@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+              <tr><!--10-->
+                <th scope="row">#10</th>
+                <td>Annie Smith</td>
+                <td>annie.smith@mail.com</td>
+                <td>Yes</td>
+                <td>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">visibility</span></a>
+                  <a class="text-dark" href="#"><span class="material-symbols-outlined">edit</span></a>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="btn-toolbar mb-3 d-flex justify-content-end border-secondary" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-outline-secondary pt-2 text-success">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button class="btn btn-outline-secondary text-success">1</button>
+            <button type="button" class="btn btn-outline-secondary text-success">2</button>
+            <button type="button" class="btn btn-outline-secondary text-success">3</button>
+            <button type="button" class="btn btn-outline-secondary pt-2 text-success">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
